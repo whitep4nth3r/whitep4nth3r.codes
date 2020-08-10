@@ -1,0 +1,55 @@
+:root {
+  --red: #f11012;
+  --green: #82af3a;
+  --black: #0f111a;
+  --white: #ffffff;
+  --offwhite: #f8f8f2;
+  --yellow: #ffb626;
+
+  --content-bg-color: var(--black);
+
+  --grid-unit: 0.5rem;
+
+  --med: 690px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  --content-container-max-width: var(--med);
+  --content-max-width: 600px;
+
+  --global-transition-time: 0.2s;
+  --hard-box-shadow: 10px 10px 0 0 var(--offwhite);
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-weight: var(--font-weight-normal);
+  background-color: #000000;
+  color: var(--white);
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+  background-position: center;
+}
+
+body > * {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: var(--font-weight-normal);
+}
