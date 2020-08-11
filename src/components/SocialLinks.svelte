@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import Twitch from "../svgs/social/Twitch.svelte";
   import Github from "../svgs/social/Github.svelte";
   import Twitter from "../svgs/social/Twitter.svelte";
@@ -27,38 +27,42 @@
 </style>
 
 {#if visible}
-<div class="container">
-  <a transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
-    class="link"
-    href="https://twitch.tv/whitep4nth3r"
-    aria-label="Join whitep4nth3r on Twitch"
-    rel="noopener noreferrer"
-    target="_blank">
-    <Twitch fill="#ffffff" />
-  </a>
-  <a transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}  
-    class="link"
-    href="https://twitter.com/whitep4nth3r"
-    aria-label="Follow whitep4nth3r on Twitter"
-    rel="noopener noreferrer"
-    target="_blank">
-    <Twitter fill="#ffffff" />
-  </a>
-  <a transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
-    class="link"
-    href="https://discord.gg/HPXM3vh"
-    aria-label="Join us on Discord"
-    rel="noopener noreferrer"
-    target="_blank">
-    <Discord fill="#ffffff" />
-  </a>
-  <a transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }} 
-    class="link"
-    href="https://github.com/whitep4nth3r"
-    aria-label="Browse code on Github"
-    rel="noopener noreferrer"
-    target="_blank">
-    <Github fill="#ffffff" />
-  </a>
-</div>
+  <div class="container">
+    <a
+      transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
+      class="link"
+      href="https://twitch.tv/whitep4nth3r"
+      aria-label="Join whitep4nth3r on Twitch"
+      rel="noopener noreferrer"
+      target="_blank">
+      <Twitch fill="#ffffff" />
+    </a>
+    <a
+      transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
+      class="link"
+      href="https://twitter.com/whitep4nth3r"
+      aria-label="Follow whitep4nth3r on Twitter"
+      rel="noopener noreferrer"
+      target="_blank">
+      <Twitter fill="#ffffff" />
+    </a>
+    <a
+      transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
+      class="link"
+      href="https://discord.gg/HPXM3vh"
+      aria-label="Join us on Discord"
+      rel="noopener noreferrer"
+      target="_blank">
+      <Discord fill="#ffffff" />
+    </a>
+    <a
+      transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
+      class="link"
+      href="https://github.com/whitep4nth3r"
+      aria-label="Browse code on Github"
+      rel="noopener noreferrer"
+      target="_blank">
+      <Github fill="#ffffff" />
+    </a>
+  </div>
 {/if}

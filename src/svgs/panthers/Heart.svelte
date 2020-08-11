@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import { fade, scale } from "svelte/transition";
   export let fadeTime: number;
   export let visible: boolean;
@@ -7,7 +7,6 @@
 <style>
 
 </style>
-
 
 {#if visible}
   <svg

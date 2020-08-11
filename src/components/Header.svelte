@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import Majick from "../svgs/panthers/Majick.svelte";
   import White from "../svgs/panthers/White.svelte";
   import Banner from "../svgs/Banner.svelte";
@@ -20,8 +20,12 @@
     width: 100%;
     position: relative;
     height: var(--container-small);
-    margin-top: 24px;
-    bottom: 5px;
+    padding-top: 2rem;
+    bottom: 0.25rem;
+    background-color: var(--red);
+    background-image: url("/svg/bg-red.svg");
+    background-size: cover;
+    border-bottom: 0.25rem solid var(--white);
   }
 
   .link_as_container {
@@ -91,6 +95,12 @@
     .panther_container {
       height: var(--panther-big);
       width: var(--panther-big);
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .container {
+      background-position: 0 -6rem;
     }
   }
 </style>

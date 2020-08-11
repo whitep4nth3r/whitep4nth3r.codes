@@ -6,13 +6,15 @@
   --offwhite: #f8f8f2;
   --yellow: #ffb626;
 
-  --content-bg-color: var(--black);
-
   --grid-unit: 0.5rem;
 
   --med: 690px;
+  --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
+
+  --font-family-heading: "Work Sans", sans-serif;
+  --font-family-main: "Work Sans", sans-serif;
 
   --content-container-max-width: var(--med);
   --content-max-width: 600px;
@@ -31,11 +33,11 @@ body {
 body {
   font-size: 16px;
   font-weight: var(--font-weight-normal);
-  background-color: #000000;
+  background-color: var(--black);
   color: var(--white);
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Fira Code', monospace;
+  font-family: var(--font-family-main);
   background-position: center;
 }
 

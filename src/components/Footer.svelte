@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   let date = new Date().getFullYear();
 </script>
 
@@ -22,7 +22,6 @@
     text-decoration: none;
   }
 
-
   .pp_link:visited {
     color: var(--green);
   }
@@ -35,7 +34,6 @@
     outline-width: 0;
     box-shadow: unset;
   }
-
 </style>
 
 <footer class="footer">

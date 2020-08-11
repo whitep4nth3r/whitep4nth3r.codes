@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import { scale } from "svelte/transition";
   import { quintOut } from "svelte/easing";
 

@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 
 </script>
 
@@ -8,12 +8,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
-    background-color: var(--content-bg-color);
     padding: 5rem 2rem 2rem 2rem;
-    border: 0.1rem solid var(--offwhite);
-    border-bottom-color: var(--green);
-    border-right-color: var(--green);
-    box-shadow: var(--hard-box-shadow);
   }
 
   .inner {
