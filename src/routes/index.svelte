@@ -53,8 +53,9 @@
 <h1 class="heading">Build stuff, learn things, love what you do.</h1>
 
 <p class="tagline">
-  Salma streams Science & Technology on Twitch specialising in front end
-  development with a focus on teaching and learning.
+  Salma is a Lead Engineer specialising in front end development, streaming
+  Science & Technology on Twitch with a focus on inclusivity, teaching and
+  learning.
 </p>
 
 <SocialLinks />

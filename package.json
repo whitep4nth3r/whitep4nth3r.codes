@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "whitep4nth3r.codes",
+  "description": "Website and blog for whitep4nth3r",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
