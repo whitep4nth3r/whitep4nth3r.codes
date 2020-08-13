@@ -41,22 +41,13 @@ export async function preload({ params, query }) {
 }
 ```
 
-1. First ordered list item
-2. Another item
-
-- Unordered sub-list.
-
 1. Actual numbers don't matter, just that it's a number
 1. Ordered sub-list
 1. And another item.
 
-   Some text that should be aligned with the above item.
-
 - Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
+- Unordered list can use asterisks
+- Unordered list can use asterisks
 
 [I'm an inline-style link](https://www.google.com)
 
@@ -100,7 +91,5 @@ The outer pipes (|) are optional, and you don't need to make the raw Markdown li
 | -------- | --------- | ---------- |
 | _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
-
-Quote break.
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
