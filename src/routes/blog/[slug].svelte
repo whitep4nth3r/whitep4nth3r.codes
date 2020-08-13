@@ -56,7 +56,7 @@
 
   .content :global(p) {
     font-size: 1.2rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     margin-bottom: 2rem;
     font-weight: var(--font-weight-normal);
     font-family: var(--font-family-main);
@@ -173,6 +173,8 @@
     padding: 2rem;
     border: 0.125rem solid var(--offwhite);
     box-shadow: 8px 8px 0 0 var(--offwhite);
+    white-space: pre-wrap;
+    word-break: break-word;
   }
 
   .content :global(code) {
@@ -189,7 +191,7 @@
   }
 
   .tags__tag {
-    background-color: var(--red);
+    background-color: var(--red-darker);
     color: var(--white);
     text-transform: uppercase;
     font-size: 1;

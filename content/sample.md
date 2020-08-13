@@ -10,13 +10,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
 
-### The quick brown fox jumped over the lazy dog (H3)
+## The quick brown fox jumped over the lazy dog (H3)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 
 For easy converting px (pixel) to vw (variable width), you can use this calculator of responsive values. This application easy in using. All you need is to insert your ‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’ values. Also you can click the button to copy result.
 
-## H2: Mermaid is a markdown for diagrams
+### H2: Mermaid is a markdown for diagrams
 
 Emphasis, aka italics, with _asterisks_ or _underscores_.
 
