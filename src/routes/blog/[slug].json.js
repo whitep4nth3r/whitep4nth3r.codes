@@ -20,7 +20,7 @@ export function get(req, res, next) {
 	// use hljs to highlight our blocks codes
 	renderer.code = (source, lang) => {
 		const { value: highlighted } = hljs.highlight(lang, source);
-		return `<pre class='language-javascriptreact'><code>${highlighted}</code></pre>`;
+		return `<pre><code class="javascript">${highlighted}</code></pre>`;
 	};
 
 	// parse the md to get front matter

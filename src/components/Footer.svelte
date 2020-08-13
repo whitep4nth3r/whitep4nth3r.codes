@@ -17,8 +17,8 @@
     color: var(--green);
     font-size: 1rem;
     line-height: 1rem;
-    transition: color var(--global-transition-time) ease-in-out;
     display: inline-block;
+    transition: color var(--global-transition-time) ease-in-out;
     text-decoration: none;
   }
 
