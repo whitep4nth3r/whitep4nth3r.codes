@@ -231,6 +231,59 @@
     margin-right: 0.5rem;
     margin-bottom: 0.75rem;
   }
+
+  .meta {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 2rem;
+    font-weight: var(--font-weight-normal);
+    font-family: var(--font-family-main);
+    color: var(--white);
+    font-style: italic;
+    display: flex;
+  }
+
+  .meta:before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512' height='24px' width='24px'%3E%3Cpath fill='%23ffb626' d='M296 160H180.6l42.6-129.8C227.2 15 215.7 0 200 0H56C44 0 33.8 8.9 32.2 20.8l-32 240C-1.7 275.2 9.5 288 24 288h118.7L96.6 482.5c-3.6 15.2 8 29.5 23.3 29.5 8.4 0 16.4-4.4 20.8-12l176-304c9.3-15.9-2.2-36-20.7-36z'%3E%3C/path%3E%3C/svg%3E");
+  }
+
+  .backToBlog {
+    color: var(--yellow);
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--font-family-main);
+    text-decoration: none;
+    padding-bottom: 0.125rem;
+    border-bottom: 0.125rem solid var(--yellow);
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .backToBlog:hover {
+    color: var(--white);
+    border-color: var(--white);
+  }
+
+  .backToBlog:focus {
+    outline-width: 0;
+    box-shadow: var(--yellow) 0 0 0 0.25rem;
+    transition: box-shadow 0.2s ease 0s;
+  }
+
+  .backToBlog:focus:active {
+    outline-width: 0;
+    box-shadow: unset;
+  }
+
+  .backToBlog:before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' height='24px' width='24px'%3E%3Cpath fill='%23ffb626' d='M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z'%3E%3C/path%3E%3C/svg%3E");
+    margin-right: 0.5rem;
+  }
 </style>
 
 <MetaData metadata={post.metadata} />
@@ -240,9 +293,12 @@
     <span class="tags__tag">{tag}</span>
   {/each}
 </div>
+
+<span class="meta">{post.date} | {post.author}</span>
 <h1>{post.title}</h1>
-<!-- date -->
 
 <div class="content">
   {@html post.html}
 </div>
+
+<a href="/blog" class="backToBlog">Back to blog</a>

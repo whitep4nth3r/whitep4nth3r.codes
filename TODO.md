@@ -11,13 +11,13 @@
   - [x] Tags
   - [x] Excerpt
   - [x] Main content
-- [ ] Schema.org
 - [x] Can we truncate excerpts on blog list?
-- [ ] Back to blog index button at the bottom of each blog post?
 - [x] Update the layout of the site to reflect more of a blog nature
 - [x] Write a blog post
 - [x] Check accessibility!
 - [x] Bespoke error page
+- [x] Back to blog index button at the bottom of each blog post?
+- [ ] Schema.org
 - [ ] Point netlify to new repo/update existing repo with new stuff
 - [ ] Dark mode/light mode
 - [ ] Experiment with variable font?

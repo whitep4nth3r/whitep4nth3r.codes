@@ -27,6 +27,10 @@ export function get(req, res, next) {
 	// and the content without escaping characters
 	const { data, content } = grayMatter(post);
 
+	const postDate = new Date(data.date);
+	let newDate = postDate.getDate() + ' ' + postDate.toLocaleString('default', { month: 'long' }) + ' ' + postDate.getFullYear()
+	data.date = newDate;
+
 	const html = marked(content, { renderer });
 
 	if (html) {
