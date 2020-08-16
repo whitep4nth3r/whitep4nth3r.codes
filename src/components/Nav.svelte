@@ -12,26 +12,27 @@
   .navLink {
     padding: 0.8rem 1rem;
     text-transform: uppercase;
-    color: var(--green);
+    color: var(--yellow);
     font-size: 1rem;
     line-height: 1rem;
     transition: color var(--global-transition-time) ease-in-out;
     display: inline-block;
     text-decoration: none;
+    font-weight: var(--font-weight-bold);
   }
 
   .navLink:visited {
-    color: var(--green);
+    color: var(--yellow);
   }
 
   .navLink:hover {
-    color: var(--offwhite);
+    color: var(--white);
   }
 
   .navLink:focus:focus {
     outline-width: 0;
     box-shadow: var(--yellow) 0 0 0 0.25rem;
-    transition: box-shadow 0.2s ease 0s;
+    transition: box-shadow var(--global-transition-time) ease 0s;
   }
 
   .navLink:focus:active {
@@ -40,8 +41,8 @@
   }
 
   .navLink.active {
-    color: var(--offwhite) !important;
-    border-bottom: 2px solid var(--offwhite);
+    color: var(--white) !important;
+    border-bottom: 0.25rem solid var(--white);
   }
 </style>
 

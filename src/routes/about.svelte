@@ -23,30 +23,34 @@
 
   .heading {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     align-content: center;
     justify-content: center;
-    font-size: clamp(1.2rem, 4.058vw, 1.8rem);
-    line-height: clamp(2rem, 4.058vw, 2.4rem);
-    margin-bottom: 2rem;
-    color: var(--white);
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    margin-bottom: 3rem;
     font-weight: var(--font-weight-bold);
+    font-family: var(--font-family-main);
+    color: var(--white);
   }
 
   .tagline {
-    font-size: clamp(1rem, 4.058vw, 1.2rem);
-    line-height: clamp(1.8rem, 4.058vw, 2rem);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--font-family-main);
+    color: var(--yellow);
     text-align: center;
-    margin: 0 auto 2rem auto;
-    font-style: italic;
   }
 
   .copy {
-    font-size: clamp(0.9rem, 4.058vw, 1rem);
-    line-height: clamp(1.6rem, 4.058vw, 1.8rem);
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     margin-bottom: 2rem;
+    font-weight: var(--font-weight-normal);
+    font-family: var(--font-family-main);
+    color: var(--white);
   }
 
   .imgContainer {
@@ -64,12 +68,6 @@
     object-fit: cover;
     width: var(--image-size);
     height: var(--image-size);
-  }
-
-  @media screen and (min-width: 690px) {
-    .tagline {
-      margin: 1rem auto 3rem auto;
-    }
   }
 </style>
 

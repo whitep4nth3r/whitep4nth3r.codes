@@ -66,7 +66,7 @@
   .postList__itemLink:focus {
     outline-width: 0;
     box-shadow: var(--yellow) 0 0 0 0.25rem;
-    transition: box-shadow 0.2s ease 0s;
+    transition: box-shadow var(--global-transition-time) ease 0s;
   }
 
   .postList__itemLink:focus:active {
@@ -117,7 +117,7 @@
     text-decoration: none;
     padding-bottom: 0.125rem;
     border-bottom: 0.125rem solid var(--yellow);
-    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: color var(--global-transition-time) ease-in-out, border-color var(--global-transition-time) ease-in-out;
     cursor: pointer;
   }
 
@@ -129,7 +129,7 @@
   .postList__readMore:focus {
     outline-width: 0;
     box-shadow: var(--yellow) 0 0 0 0.25rem;
-    transition: box-shadow 0.2s ease 0s;
+    transition: box-shadow var(--global-transition-time) ease 0s;
   }
 
   .postList__readMore:focus:active {
