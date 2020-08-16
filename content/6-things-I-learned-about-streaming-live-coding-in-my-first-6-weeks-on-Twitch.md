@@ -64,8 +64,8 @@ mean for you._
 When the time comes for you to work on the production quality of your stream - you will, no doubt,
 have technical issues. **Dropped frames, audio out of sync with the webcam image, 'Minecraft style
 resolution' (yes, that was an exact quote from a viewer), white balance issues, flickering webcam
-image and lack of CPU** - these are just _some_ of the issues I've faced as I started to evolve my
-setup.
+image and lack of processing power** - these are just _some_ of the issues I've faced as I started
+to evolve my setup.
 
 > Viewers will point out your technical issues - and this feedback is a gift.
 
@@ -78,7 +78,7 @@ approaches to solving your problems off-stream, and _always crowdsource advice._
 
 _Here are some of the key things I've learned about the optimum technical setup:_
 
-### 1. To minimise your change of dropped frames, do not stream using WiFi
+### 1. To minimise your chance of dropped frames, do not stream using WiFi
 
 If you can't deal with a 50m long ethernet cable trailing up/down your stairs, try a powerline
 adaptor.
@@ -93,8 +93,8 @@ powerline, whilst I code on my Macbook that is connected to the PC via a capture
 
 I recently switched to using a Logitech Streamcam for the 60FPS and 1080p resolution, but I had
 nightmare after nightmare trying to work out why the camera was flickering every now and then. After
-focussing on the software settings, trying _everything_ and almost rage quitting streaming, I found
-the solution was hardware-based. I switched to using Windows default drivers rather than the
+focussing on the camera settings, trying _everything_ and almost rage quitting streaming, I found
+the solution was software-based. I switched to using Windows default drivers rather than the
 Logitech drivers, and purchased an adaptor to plug the proprietry USB C connector into USB 2.0.
 **And my problem was solved!**
 
@@ -159,8 +159,8 @@ experience considerations that come with it. When I first started out, I noticed
 content was few and far between in the science and technology community on Twitch. And so it got me
 questioning.
 
-_Did people really want to watch me make pretty accessible websites? Or were they more interested in
-deep-diving into C#, Rust and Python?_
+_Did people really want to watch me make pretty, accessible websites? Or were they more interested
+in deep-diving into C#, Rust and Python?_
 
 I experimented with streaming some very different content for a little while - and whilst it
 certainly brought some different viewers to my channel (and some have certainly stayed) - I didn't
