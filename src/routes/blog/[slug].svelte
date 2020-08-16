@@ -48,11 +48,11 @@
 
   .content :global(h3) {
     font-size: 1.4rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     margin-bottom: 2rem;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-bold);
     font-family: var(--font-family-main);
-    color: var(--white);
+    color: var(--yellow);
   }
 
   .content :global(p) {
@@ -172,12 +172,8 @@
   .content :global(figure) {
     width: 100%;
     display: block;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    border-top: 0.125rem solid var(--yellow);
-    border-bottom: 0.125rem solid var(--yellow);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     margin-inline-start: 0;
     margin-inline-end: 0;
   }
@@ -191,6 +187,8 @@
     font-size: 1.2rem;
     line-height: 1.8rem;
     font-style: italic;
+    margin-top: 1rem;
+    color: var(--yellow);
   }
 
   .content :global(pre) {
@@ -214,13 +212,14 @@
     align-content: center;
     margin-top: 0;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
   }
 
   .tags__tag {
     background-color: var(--red-darker);
     color: var(--white);
     text-transform: uppercase;
-    font-size: 1;
+    font-size: 1rem;
     border: 0.125rem solid var(--white);
     border-radius: 1rem;
     padding: 0.25rem 0.5rem;
@@ -229,6 +228,7 @@
     font-size: 0.875rem;
     text-decoration: none;
     margin-right: 0.5rem;
+    margin-bottom: 0.75rem;
   }
 </style>
 
