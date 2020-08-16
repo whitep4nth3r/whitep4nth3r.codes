@@ -9,11 +9,11 @@
   - [ ] Date
   - [x] Tags
   - [ ] Excerpt
-  - [ ] Main content
+  - [x] Main content
 - [ ] Fix the blog index page
-- [ ] Update the layout of the site to reflect more of a blog nature
+- [x] Update the layout of the site to reflect more of a blog nature
 - [ ] Experiment with variable font?
-- [ ] Write a blog post
+- [x] Write a blog post
 - [ ] Bespoke error page
 - [ ] Point netlify to new repo/update existing repo with new stuff
 - [ ] Dark mode/light mode
