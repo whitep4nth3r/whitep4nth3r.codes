@@ -1,18 +1,19 @@
 ---
-slug: '6-things-I-learned-about-streaming-live-coding-in-my-first-6-weeks-on-Twitch'
-title: '6 things I learned about streaming live coding in my first 6 weeks on Twitch'
-tags: ['streaming', 'twitch', 'science & technology', 'live coding']
+slug: 6-things-I-learned-about-streaming-live-coding-in-my-first-6-weeks-on-Twitch
+title: 6 things I learned about streaming live coding in my first 6 weeks on Twitch
+tags: ["streaming", "twitch", "science & technology", "live coding"]
 excerpt: |
   I discovered live coding serendipitously on Twitch for the first time in mid June 2020. I was
   instantly hooked on the huge sense of community, the opportunities to learn, and the way in which the platform increases access to and engagement in science and technology content across the world.
-date:
-author: 'whitep4nth3r'
-meta:
-  title:
-  description:
-  image:
-  imageAlt:
-  url:
+date: 2020-08-16
+author: "whitep4nth3r"
+metadata:
+  title: 6 things I learned about streaming live coding in my first 6 weeks on Twitch
+  description: |
+    I discovered live coding serendipitously on Twitch for the first time in mid June 2020. I was instantly hooked on the huge sense of community, the opportunities to learn, and the way in which the platform increases access to and engagement in science and technology content across the world.
+  image: ./img/blog/original-stream-setup.png
+  imageAlt: Screenshot of my original streaming setup using an inbuilt webcam and microphone
+  url: https://whitep4nth3r.codes/blog/6-things-I-learned-about-streaming-live-coding-in-my-first-6-weeks-on-Twitch
 ---
 
 I discovered live coding serendipitously on Twitch for the first time in mid June 2020. I was

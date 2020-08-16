@@ -1,5 +1,5 @@
 <script>
-  import Meta from "../components/Meta.svelte";
+  import MetaData from "../components/MetaData.svelte";
 
   const metadata = {
     title: "whitep4nth3r.codes | Privacy Policy",
@@ -41,8 +41,7 @@
   }
 </style>
 
-
-<Meta {metadata} />
+<MetaData {metadata} />
 
 <h1>Privacy Policy for whitep4nther.codes</h1>
 

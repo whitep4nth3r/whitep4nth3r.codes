@@ -1,12 +1,12 @@
 <script>
   import SocialLinks from "../components/SocialLinks.svelte";
 
-  import Meta from "../components/Meta.svelte";
+  import MetaData from "../components/MetaData.svelte";
 
   const metadata = {
     title: "whitep4nth3r.codes | Build stuff, learn things, love what you do.",
     description:
-      "whitep4nth3r streams Science & Technology on Twitch specialising in front end development with a focus on teaching and learning.",
+      "Salma is a Lead Engineer specialising in front end development, streaming Science & Technology on Twitch with a focus on inclusivity, teaching and learning.",
     image: "https://whitep4nth3r.codes/img/MajickWhitep4nth3r.png",
     imageAlt: "whitep4nth3r",
     url: "https://whitep4nth3r.codes",
@@ -48,7 +48,7 @@
   }
 </style>
 
-<Meta {metadata} />
+<MetaData {metadata} />
 
 <h1 class="heading">Build stuff, learn things, love what you do.</h1>
 

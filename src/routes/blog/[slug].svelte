@@ -1,4 +1,5 @@
 <script context="module">
+  import MetaData from "../../components/MetaData.svelte";
   export async function preload({ params, query }) {
     // the `slug` parameter is available because
     // this file is called [slug].svelte
@@ -232,10 +233,7 @@
   }
 </style>
 
-<svelte:head>
-  <title>{post.title}</title>
-  <meta type="description" content={post.description} />
-</svelte:head>
+<MetaData metadata={post.metadata} />
 
 <div class="tags">
   {#each post.tags as tag}
