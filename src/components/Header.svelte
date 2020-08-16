@@ -40,11 +40,12 @@
 
   .link_as_container:focus {
     box-shadow: unset;
+    outline: none;
   }
 
   .link_as_container:focus .panther_container {
     outline-width: 0;
-    box-shadow: var(--green) 0 0 0 0.25rem;
+    box-shadow: var(--yellow) 0 0 0 0.25rem;
     transition: box-shadow 0.2s ease 0s;
   }
 

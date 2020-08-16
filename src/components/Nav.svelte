@@ -28,6 +28,12 @@
     color: var(--offwhite);
   }
 
+  .navLink:focus:focus {
+    outline-width: 0;
+    box-shadow: var(--yellow) 0 0 0 0.25rem;
+    transition: box-shadow 0.2s ease 0s;
+  }
+
   .navLink:focus:active {
     outline-width: 0;
     box-shadow: unset;

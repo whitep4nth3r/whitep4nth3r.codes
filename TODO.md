@@ -7,10 +7,12 @@
 - [ ] What type of data do we want to store with each blog post?
   - [x] Meta
   - [ ] Featured image
-  - [ ] Date
+  - [x] Date
   - [x] Tags
-  - [ ] Excerpt
+  - [x] Excerpt
   - [x] Main content
+- [ ] Schema.org
+- [ ] Can we truncate excerpts on blog list?
 - [ ] Back to blog index button at the bottom of each blog post?
 - [x] Update the layout of the site to reflect more of a blog nature
 - [x] Write a blog post

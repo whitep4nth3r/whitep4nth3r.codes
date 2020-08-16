@@ -22,6 +22,12 @@
     text-decoration: none;
   }
 
+  .pp_link:focus {
+    outline-width: 0;
+    box-shadow: var(--yellow) 0 0 0 0.25rem;
+    transition: box-shadow 0.2s ease 0s;
+  }
+
   .pp_link:visited {
     color: var(--green);
   }
