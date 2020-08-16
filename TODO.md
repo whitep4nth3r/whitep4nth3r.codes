@@ -17,7 +17,7 @@
 - [x] Check accessibility!
 - [x] Bespoke error page
 - [x] Back to blog index button at the bottom of each blog post?
-- [ ] Schema.org
+- [x] Schema.org
 - [ ] Point netlify to new repo/update existing repo with new stuff
 - [ ] Dark mode/light mode
 - [ ] Experiment with variable font?

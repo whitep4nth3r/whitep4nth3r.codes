@@ -284,21 +284,40 @@
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' height='24px' width='24px'%3E%3Cpath fill='%23ffb626' d='M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z'%3E%3C/path%3E%3C/svg%3E");
     margin-right: 0.5rem;
   }
+
+  .hidden {
+    display: none;
+  }
 </style>
 
 <MetaData metadata={post.metadata} />
 
-<div class="tags">
-  {#each post.tags as tag}
-    <span class="tags__tag">{tag}</span>
-  {/each}
-</div>
+<section itemscope itemtype="http://schema.org/CreativeWork">
 
-<span class="meta">{post.date} | {post.author}</span>
-<h1>{post.title}</h1>
+  <span
+    class="hidden"
+    itemprop="author"
+    itemscope
+    itemtype="http://schema.org/Person">
+    {post.author}
+  </span>
 
-<div class="content">
-  {@html post.html}
-</div>
+  <span class="hidden" itemprop="description">{post.excerpt}</span>
+  <span class="hidden" itemprop="keywords">{post.tags}</span>
 
-<a href="/blog" class="backToBlog">Back to blog</a>
+  <div class="tags">
+    {#each post.tags as tag}
+      <span class="tags__tag">{tag}</span>
+    {/each}
+  </div>
+
+  <span class="meta">{post.date} | {post.author}</span>
+  <h1 itemprop="name">{post.title}</h1>
+
+  <div class="content">
+    {@html post.html}
+  </div>
+
+  <a href="/blog" class="backToBlog">Back to blog</a>
+
+</section>
