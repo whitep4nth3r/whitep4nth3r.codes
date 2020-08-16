@@ -28,19 +28,20 @@
 	*/
 
   h1 {
-    font-size: 1.8rem;
-    line-height: 2rem;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
     margin-bottom: 3rem;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-bold);
     font-family: var(--font-family-main);
     color: var(--white);
   }
 
   .content :global(h2) {
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 2.2rem;
+    line-height: 3rem;
     margin-bottom: 2rem;
-    font-weight: var(--font-weight-normal);
+    margin-top: 6rem;
+    font-weight: var(--font-weight-bold);
     font-family: var(--font-family-main);
     color: var(--white);
   }
@@ -128,7 +129,7 @@
   .content :global(blockquote) :global(p) {
     font-style: italic;
     font-size: 1.6rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
   }
 
   .content :global(blockquote):before {
@@ -165,6 +166,31 @@
   }
 
   .content :global(img) {
+    width: 100%;
+  }
+
+  .content :global(figure) {
+    width: 100%;
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-top: 0.125rem solid var(--yellow);
+    border-bottom: 0.125rem solid var(--yellow);
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  .content :global(figure) :global(img) {
+    margin-bottom: 1rem;
+    border: 0.25rem solid var(--yellow);
+  }
+
+  .content :global(figure) :global(figcaption) {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-style: italic;
   }
 
   .content :global(pre) {
