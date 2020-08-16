@@ -57,6 +57,10 @@
   .postList__itemLink {
     text-decoration: none;
     display: block;
+    cursor: pointer;
+  }
+
+  .postList__itemLink:hover {
   }
 
   .postList__itemLink:focus {
@@ -102,6 +106,36 @@
     font-family: var(--font-family-main);
     color: var(--white);
   }
+
+  .postList__readMore {
+    color: var(--yellow);
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: var(--font-weight-bold);
+    font-family: var(--font-family-main);
+    text-decoration: none;
+    padding-bottom: 0.125rem;
+    border-bottom: 0.125rem solid var(--yellow);
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .postList__readMore:hover {
+    color: var(--white);
+    border-color: var(--white);
+  }
+
+  .postList__readMore:focus {
+    outline-width: 0;
+    box-shadow: var(--yellow) 0 0 0 0.25rem;
+    transition: box-shadow 0.2s ease 0s;
+  }
+
+  .postList__readMore:focus:active {
+    outline-width: 0;
+    box-shadow: unset;
+  }
 </style>
 
 <MetaData {metadata} />
@@ -122,7 +156,9 @@
         <p class="postList__itemExcerpt">
           {post.excerpt.length > 240 ? post.excerpt.substr(0, 237) + '...' : post.excerpt}
         </p>
-
+      </a>
+      <a rel="prefetch" href="blog/{post.slug}" class="postList__readMore">
+        Read more
       </a>
     </li>
   {/each}

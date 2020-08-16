@@ -3,8 +3,8 @@
 - [x] Understand how Sapper generates pages via files
 - [x] Understand where to store 'blog post' data - can we use MD?
 - [x] Style all HTML elements - MD cheatsheet
-- [ ] Fix the blog index page
-- [ ] What type of data do we want to store with each blog post?
+- [x] Fix the blog index page
+- [x] What type of data do we want to store with each blog post?
   - [x] Meta
   - [ ] Featured image
   - [x] Date
@@ -12,12 +12,12 @@
   - [x] Excerpt
   - [x] Main content
 - [ ] Schema.org
-- [ ] Can we truncate excerpts on blog list?
+- [x] Can we truncate excerpts on blog list?
 - [ ] Back to blog index button at the bottom of each blog post?
 - [x] Update the layout of the site to reflect more of a blog nature
 - [x] Write a blog post
-- [ ] Check accessibility!
-- [ ] Bespoke error page
+- [x] Check accessibility!
+- [x] Bespoke error page
 - [ ] Point netlify to new repo/update existing repo with new stuff
 - [ ] Dark mode/light mode
 - [ ] Experiment with variable font?
