@@ -29,22 +29,36 @@
 	*/
 
   h1 {
-    font-size: 2.8rem;
-    line-height: 3.4rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
     margin-bottom: 3rem;
     font-weight: var(--font-weight-bold);
     font-family: var(--font-family-main);
     color: var(--white);
   }
 
+  @media screen and (min-width: 600px) {
+    h1 {
+      font-size: 2.8rem;
+      line-height: 3.4rem;
+    }
+  }
+
   .content :global(h2) {
-    font-size: 2.2rem;
-    line-height: 3rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
     margin-bottom: 2rem;
     margin-top: 6rem;
     font-weight: var(--font-weight-bold);
     font-family: var(--font-family-main);
     color: var(--white);
+  }
+
+  @media screen and (min-width: 600px) {
+    .content :global(h2) {
+      font-size: 2.2rem;
+      line-height: 3rem;
+    }
   }
 
   .content :global(h3) {
@@ -123,14 +137,26 @@
     display: block;
     margin-block-start: 4rem;
     margin-block-end: 4rem;
-    margin-inline-start: 4rem;
-    margin-inline-end: 4rem;
+    margin-inline-start: 2rem;
+    margin-inline-end: 2rem;
   }
 
   .content :global(blockquote) :global(p) {
     font-style: italic;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  @media screen and (min-width: 600px) {
+    .content :global(blockquote) {
+      margin-inline-start: 4rem;
+      margin-inline-end: 4rem;
+    }
+
+    .content :global(blockquote) :global(p) {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
   }
 
   .content :global(blockquote):before {

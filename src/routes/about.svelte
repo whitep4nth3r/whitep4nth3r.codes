@@ -26,12 +26,19 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    font-size: 2.8rem;
-    line-height: 3.4rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
     margin-bottom: 3rem;
     font-weight: var(--font-weight-bold);
     font-family: var(--font-family-main);
     color: var(--white);
+  }
+
+  @media screen and (min-width: 600px) {
+    .heading {
+      font-size: 2.8rem;
+      line-height: 3.4rem;
+    }
   }
 
   .tagline {

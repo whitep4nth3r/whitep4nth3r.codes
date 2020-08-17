@@ -8,7 +8,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
-    padding: 5rem 2rem 2rem 2rem;
+    padding: 5rem 1rem 1rem 1rem;
   }
 
   .inner {
@@ -19,7 +19,7 @@
 
   @media screen and (min-width: 690px) {
     .container {
-      padding: 6rem 2rem 2rem 2rem;
+      padding: 6rem 1rem 1rem 1rem;
     }
   }
 </style>

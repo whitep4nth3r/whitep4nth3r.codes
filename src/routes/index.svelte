@@ -22,16 +22,23 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    font-size: clamp(1.2rem, 4.058vw, 1.8rem);
-    line-height: clamp(2rem, 4.058vw, 2.4rem);
-    margin-bottom: clamp(2rem, 4.058vw, 3rem);
-    color: var(--offwhite);
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 3rem;
+    color: var(--white);
     font-weight: var(--font-weight-bold);
   }
 
+  @media screen and (min-width: 600px) {
+    .heading {
+      font-size: 2.8rem;
+      line-height: 3.4rem;
+    }
+  }
+
   .tagline {
-    font-size: clamp(1rem, 4.058vw, 1.2rem);
-    line-height: clamp(1.8rem, 4.058vw, 2rem);
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     text-align: center;
     margin: 0 auto 3rem auto;
     color: var(--offwhite);
