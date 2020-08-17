@@ -18,7 +18,8 @@
 - [x] Bespoke error page
 - [x] Back to blog index button at the bottom of each blog post?
 - [x] Schema.org
-- [ ] Point netlify to new repo/update existing repo with new stuff
+- [x] Point netlify to new repo/update existing repo with new stuff
+- [ ] Fix OG shared images
 - [ ] Dark mode/light mode
 - [ ] Experiment with variable font?
-- [ ] Pagination
+- [ ] Blog pagination

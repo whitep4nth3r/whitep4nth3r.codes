@@ -1,6 +1,6 @@
-# whitep4nth3r.codes-sapper
+# whitep4nth3r.codes
 
-I wasn't happy with the limitations of content management with the [basic Svelte site](https://github.com/whitep4nth3r/whitep4nth3r.codes). I'm trying Svelte with Sapper as an alternative solution.
+Built with Svelte + Sapper.
 
 ---
 
