@@ -1,6 +1,12 @@
+<script context="module">
+  export async function preload(page, session) {
+    const { SITE_URL } = session;
+    return { siteUrl: SITE_URL };
+  }
+</script>
+
 <script>
   import SocialLinks from "../components/SocialLinks.svelte";
-
   import MetaData from "../components/MetaData.svelte";
 
   const metadata = {
@@ -11,6 +17,8 @@
     imageAlt: "whitep4nth3r",
     url: "https://whitep4nth3r.codes",
   };
+
+  export let siteUrl;
 </script>
 
 <style>
@@ -58,6 +66,17 @@
 <MetaData {metadata} />
 
 <h1 class="heading">Build stuff, learn things, love what you do.</h1>
+
+<h1>{siteUrl}</h1>
+
+<iframe
+  src=`https://player.twitch.tv/?channel=whitep4nth3r&parent=${siteUrl}`
+  height="720"
+  width="1280"
+  frameborder="0"
+  scrolling="no"
+  title="whitep4nth3r on Twitch"
+  allowfullscreen="true" />
 
 <p class="tagline">
   Salma is a Lead Engineer specialising in front end development, streaming
