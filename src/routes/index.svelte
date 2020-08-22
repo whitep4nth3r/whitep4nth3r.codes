@@ -1,6 +1,12 @@
+<script context="module">
+  export async function preload(page, session) {
+    const { SITE_URL } = session;
+    return { siteUrl: SITE_URL };
+  }
+</script>
+
 <script>
   import SocialLinks from "../components/SocialLinks.svelte";
-
   import MetaData from "../components/MetaData.svelte";
 
   const metadata = {
@@ -11,6 +17,9 @@
     imageAlt: "whitep4nth3r",
     url: "https://whitep4nth3r.codes",
   };
+
+  export let siteUrl;
+  export let iframeSrc = `https://player.twitch.tv/?channel=whitep4nth3r&parent=${siteUrl}`;
 </script>
 
 <style>
@@ -53,12 +62,38 @@
       min-height: 4rem;
     }
   }
+
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 4rem;
+  }
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 </style>
 
 <MetaData {metadata} />
 
 <h1 class="heading">Build stuff, learn things, love what you do.</h1>
 
+<div class="videoWrapper">
+
+  <iframe
+    src={iframeSrc}
+    height="100%"
+    width="100%"
+    frameborder="0"
+    scrolling="no"
+    title="whitep4nth3r on Twitch"
+    allowfullscreen="true" />
+
+</div>
 <p class="tagline">
   Salma is a Lead Engineer specialising in front end development, streaming
   Science & Technology on Twitch with a focus on inclusivity, teaching and
