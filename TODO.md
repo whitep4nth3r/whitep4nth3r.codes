@@ -20,6 +20,6 @@
 - [x] Schema.org
 - [x] Point netlify to new repo/update existing repo with new stuff
 - [ ] Fix OG shared images
-- [ ] Dark mode/light mode
+- [ ] Dark mode/light mode toggle
 - [ ] Experiment with variable font?
 - [ ] Blog pagination
