@@ -51,6 +51,7 @@
 
   .banner_container {
     width: 200px;
+    height: 60px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
