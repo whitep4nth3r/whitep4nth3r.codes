@@ -23,7 +23,7 @@
     padding-top: 2rem;
     bottom: 0.25rem;
     background-color: var(--red);
-    background-image: url("/svg/bg-red.webp");
+    background-image: url("/img/bg-red.webp");
     background-size: cover;
     border-bottom: 0.25rem solid var(--white);
   }
