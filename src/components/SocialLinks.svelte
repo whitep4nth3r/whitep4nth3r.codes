@@ -60,15 +60,6 @@
     <a
       transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
       class="link"
-      href="https://discord.gg/HPXM3vh"
-      aria-label="Join us on Discord"
-      rel="noopener noreferrer"
-      target="_blank">
-      <Discord fill="#ffffff" />
-    </a>
-    <a
-      transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
-      class="link"
       href="https://github.com/whitep4nth3r"
       aria-label="Browse code on Github"
       rel="noopener noreferrer"
