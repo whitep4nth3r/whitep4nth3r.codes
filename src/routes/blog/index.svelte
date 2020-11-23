@@ -59,6 +59,7 @@
   }
 
   .postList__item {
+    margin-bottom: 4rem;
   }
 
   .postList__itemLink {

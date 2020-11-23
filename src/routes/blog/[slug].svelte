@@ -51,7 +51,7 @@
     margin-top: 6rem;
     font-weight: var(--font-weight-bold);
     font-family: var(--font-family-main);
-    color: var(--white);
+    color: var(--yellow);
   }
 
   @media screen and (min-width: 600px) {
@@ -187,6 +187,10 @@
   .content :global(td):last-of-type,
   .content :global(th):last-of-type {
     border-right-width: 0;
+  }
+
+  .content :global(hr) {
+    margin-bottom: 2rem;
   }
 
   .content :global(thead) {
