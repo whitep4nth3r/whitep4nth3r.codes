@@ -49,7 +49,7 @@ Here are my top five guiding principles that help me prioritise leading teams th
 
 The most prevalent way to develop an empathetic relationship with your team is to be part of the team. Notice that I never refer to team leads as ‘managers’. Your role as a team lead is to provide direction, support and protection – not to ‘manage’ or ‘take charge of’ in the traditional sense. 
 
-If you, as a team lead is integrated with your team, are involved in (but not necessarily leading) team ceremonies, pair-programming with developers, and architecting roadmaps with product owners –  you are much more likely to _understand and share their feelings_ as a result of being in the same shared situations.
+If you, as a team lead are integrated with your team, are involved in (but not necessarily leading) team ceremonies, pair-programming with developers, and architecting roadmaps with product owners –  you are much more likely to _understand and share their feelings_ as a result of being in the same shared situations.
 
 ## 2. You are not a resource
 
