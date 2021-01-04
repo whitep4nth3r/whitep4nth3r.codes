@@ -53,12 +53,12 @@
     href=".">
     Home
   </a>
-  <a
+  <!-- <a
     class="navLink"
     class:active={segment === 'about' ? 'page' : undefined}
     href="about">
     About
-  </a>
+  </a> -->
   <a
     class="navLink"
     class:active={segment === 'blog' ? 'page' : undefined}

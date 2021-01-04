@@ -66,7 +66,7 @@
   .videoWrapper {
     position: relative;
     padding-bottom: 56.25%;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   iframe {
@@ -76,14 +76,45 @@
     width: 100%;
     height: 100%;
   }
+
+  .link {
+    color: var(--green);
+    transition: color var(--global-transition-time) ease-in-out;
+    text-decoration: none;
+  }
+
+  .link:visited {
+    color: var(--green);
+  }
+
+  .link:hover {
+    color: var(--white);
+  }
+
+  .link:focus {
+    outline-width: 0;
+    box-shadow: var(--yellow) 0 0 0 0.25rem;
+    transition: box-shadow var(--global-transition-time) ease 0s;
+  }
+
+  .link:focus:active {
+    outline-width: 0;
+    box-shadow: unset;
+  }
+
 </style>
 
 <MetaData {metadata} />
 
 <h1 class="heading">Build stuff, learn things, love what you do.</h1>
 
-<div class="videoWrapper">
+<p class="tagline">
+  Salma is a Developer Evangelist @ <a class="link" href="https://contentful.com" target="_blank" rel="noopener nofollow">Contentful</a> specialising in front end development.
+</p>
 
+<SocialLinks />
+
+<div class="videoWrapper">
   <iframe
     src={iframeSrc}
     height="100%"
@@ -92,12 +123,4 @@
     scrolling="no"
     title="whitep4nth3r on Twitch"
     allowfullscreen="true" />
-
 </div>
-<p class="tagline">
-  Salma is a Lead Engineer specialising in front end development, streaming
-  Science & Technology on Twitch with a focus on inclusivity, teaching and
-  learning.
-</p>
-
-<SocialLinks />

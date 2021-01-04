@@ -46,7 +46,7 @@
       aria-label="Join whitep4nth3r on Twitch"
       rel="noopener noreferrer"
       target="_blank">
-      <Twitch fill="#ffffff" />
+      <Twitch fill="#ffb626" />
     </a>
     <a
       transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
@@ -55,7 +55,7 @@
       aria-label="Follow whitep4nth3r on Twitter"
       rel="noopener noreferrer"
       target="_blank">
-      <Twitter fill="#ffffff" />
+      <Twitter fill="#ffb626" />
     </a>
     <a
       transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
@@ -64,7 +64,16 @@
       aria-label="Browse code on Github"
       rel="noopener noreferrer"
       target="_blank">
-      <Github fill="#ffffff" />
+      <Github fill="#ffb626" />
+    </a>
+    <a
+      transition:scale={{ delay: 250, duration: 300, opacity: 0.5, easing: quintOut }}
+      class="link"
+      href="https://discord.gg/GQbXUVCneJ"
+      aria-label="Join the community on Discord"
+      rel="noopener noreferrer"
+      target="_blank">
+    <Discord fill="#ffb626" />
     </a>
   </div>
 {/if}
