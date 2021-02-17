@@ -12,7 +12,7 @@
   const metadata = {
     title: "whitep4nth3r.codes | Build stuff, learn things, love what you do.",
     description:
-      "Salma is a Lead Engineer specialising in front end development, streaming Science & Technology on Twitch with a focus on inclusivity, teaching and learning.",
+      "Salma is a Developer Evangelist specialising in front end development and web technologies, streaming Science & Technology on Twitch with a focus on inclusivity, teaching and learning.",
     image: "https://whitep4nth3r.codes/img/MajickWhitep4nth3r.png",
     imageAlt: "whitep4nth3r",
     url: "https://whitep4nth3r.codes",
