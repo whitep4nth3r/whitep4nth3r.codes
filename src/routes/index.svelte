@@ -12,10 +12,10 @@
   const metadata = {
     title: "whitep4nth3r.codes | Build stuff, learn things, love what you do.",
     description:
-      "Salma is a Developer Evangelist specialising in front end development and web technologies, streaming Science & Technology on Twitch with a focus on inclusivity, teaching and learning.",
-    image: "https://whitep4nth3r.codes/img/MajickWhitep4nth3r.png",
+      "Hi, friends! I'm Salma. I help developers build stuff, learn things, and love what they do. I'm a Staff Developer Experience engineer at Netlify. I'm also a Microsoft MVP for developer technologies, a partnered live streamer on Twitch, and a qualified teacher. I love helping people get into tech.",
+    image: "https://whitep4nth3rcodes.netlify.app/img/MajickWhitep4nth3r.png",
     imageAlt: "whitep4nth3r",
-    url: "https://whitep4nth3r.codes",
+    url: "https://whitep4nth3rcodes.netlify.app",
   };
 
   export let siteUrl;
@@ -24,7 +24,6 @@
 
 <style>
   .heading {
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     min-height: 5rem;
@@ -48,7 +47,6 @@
   .tagline {
     font-size: 1.2rem;
     line-height: 1.8rem;
-    text-align: center;
     margin: 0 auto 3rem auto;
     color: var(--offwhite);
   }
@@ -109,7 +107,7 @@
 <h1 class="heading">Build stuff, learn things, love what you do.</h1>
 
 <p class="tagline">
-  Salma is a Developer Evangelist @ <a class="link" href="https://contentful.com" target="_blank" rel="noopener nofollow">Contentful</a> specialising in front end development.
+  Hi, friends! I'm Salma. I help developers build stuff, learn things, and love what they do. I'm a Staff Developer Experience engineer at Netlify. I'm also a Microsoft MVP for developer technologies, a partnered live streamer on Twitch, and a qualified teacher. I love helping people get into tech.
 </p>
 
 <SocialLinks />
