@@ -1,10 +1,3 @@
-<script context="module">
-  export async function preload(page, session) {
-    const { host } = page;
-    return { siteUrl: host };
-  }
-</script>
-
 <script>
   import SocialLinks from "../components/SocialLinks.svelte";
   import MetaData from "../components/MetaData.svelte";
@@ -18,8 +11,7 @@
     url: "https://whitep4nth3rcodes.netlify.app",
   };
 
-  export let siteUrl;
-  export let iframeSrc = `https://player.twitch.tv/?channel=whitep4nth3r&parent=${siteUrl}`;
+  export let iframeSrc = `https://player.twitch.tv/?channel=whitep4nth3r&parent=whitep4nth3rcodes.netlify.app`;
 </script>
 
 <style>
