@@ -1,7 +1,7 @@
 <script context="module">
   export async function preload(page, session) {
-    const { SITE_URL } = session;
-    return { siteUrl: SITE_URL };
+    const { host } = page;
+    return { siteUrl: host };
   }
 </script>
 
